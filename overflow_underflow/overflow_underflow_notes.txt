@@ -1,0 +1,5 @@
+For the Overflow Underflow exercise I noticed: 
+
+-> 32-bit integers decrement to '-1' when initialized to 0, whether they're signed or unsigned. 
+
+-> The signed 16-bit integer (s) incremented to the lowest possible range (-2^15), whereas the unsigned 16-bit integer (u) incremented to 0 - it's smallest possible value. 
