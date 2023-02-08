@@ -1,0 +1,9 @@
+For the Dynamic Range & Precision exercise: 
+
+-> When I compiled and ran the file, I noticed that the float integers 'big + small' didn't add together. After doing some research, I found that a single-precision floating variable can only represent values up to 2^(24); 100 million falls outside of that range. I played around with other values for float big and it indeed only returned the correct sum up to 2^(24) - 1.  
+
+-> Float 'sum' returns the value of 'big + small' with one decimal place since setprecision() is set to 1.
+
+-> The 32-bit integer 'sum' returned 'big' + 'small' without an issue.
+
+Q: Why can float 'big' printout 100,000,000.0 in the terminal ("big = 100000000.0") but a float variable is unable to even calculate a value that is > 2^24 ?  In other words, what's the difference between a float's maximum range of 3.04e38 and a float's ability to represent an integer to a maximum of 2^24?
