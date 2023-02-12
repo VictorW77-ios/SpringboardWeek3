@@ -1,0 +1,3 @@
+Explanation of the [1,10] range output:
+
+Each iteration of division outputs the amount of times the numerator can be divided by the denominator up to the value of the numerator and prints a 0 in place of the values it didn't divide. The 'showpos()' format flag, provided through the std library, displays the integers with a '+' in front of them. 
