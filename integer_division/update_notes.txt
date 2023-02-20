@@ -1,1 +1,3 @@
-Theses are my observations when the range is changed to [-10,10]
+Theses are my observations when the range is changed to [-10,10]:
+
+-> Each iteration outputs the truncation of the value being divided. 
