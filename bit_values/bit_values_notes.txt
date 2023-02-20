@@ -1,5 +1,12 @@
 These are my observations for the bit_values exercise: 
+Toggling bit 3 ->  reduced the value of x by getting toggled to 0.  
+Toggling bit 3 second time -> increased the value of x by being toggled back to 1. 
+Clearing bit 7 -> reduced the value of x by 128. 
+Clearing bits 16 - 31 -> reduced the value of x by a factor of 10^9 to 10^3. 
+ 
 
+
+General Notes: 
 -> Set bit: If Kth bit is 0, set to 1. If 1, leave it.  
 -> Toggle bit: If Kth bit is 1, set to 0. If 0, set to 1. 
 -> Clear bit: If Kth bit is 1, set to 0. If 0, leave it. 
