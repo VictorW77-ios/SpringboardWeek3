@@ -12,6 +12,7 @@ int main ()
   ///////////////////////////////////
   // SET THE APPROPRIATE BITS HERE //
   ///////////////////////////////////
+  
 
   cout << "after setting bits:" << endl;
   cout << "  x = " << x << endl;

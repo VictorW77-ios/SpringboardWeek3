@@ -10,7 +10,7 @@ int main ()
   //////////////////////////
   // MANIPULATE BITS HERE //
   //////////////////////////
-
+  
 
   float f = reinterpret_cast<float&>(x);
   cout << "x = " << x << endl;

@@ -1,1 +1,7 @@
-These are my observations for the bit_values exercise 
+These are my observations for the bit_values exercise: 
+
+-> Set bit: If Kth bit is 0, set to 1. If 1, leave it.  
+-> Toggle bit: If Kth bit is 1, set to 0. If 0, set to 1. 
+-> Clear bit: If Kth bit is 1, set to 0. If 0, leave it. 
+
+
