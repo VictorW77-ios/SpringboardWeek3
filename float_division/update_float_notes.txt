@@ -1,1 +1,7 @@
-My observations for range [-10,+10]
+My observations after updating the for-loop ranges to [-10,+10]:
+
+-> Each iteration for '0' outputs -inf...-nan...+inf since any integer divided by zero results in -infinity to +infinity. 
+
+-> Float integers allow for that huge range^
+
+-> Unlike the output of range [1,10], where the table truncated -10/-4 = +2, the float int range [-10,+10] instead output the full value of -10/-4 = +2.500e+00

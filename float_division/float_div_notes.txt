@@ -1,1 +1,3 @@
-My observations for range [1,10]
+My observations for range [1,10] output:
+
+-> Each iteration is printed in scientific notation(e+00, e-01, etc) with 3 decimal points.
